@@ -100,7 +100,7 @@ RUN mkdir -p $ANDROID_HOME/licenses/ \
 RUN /opt/tools/android-accept-licenses.sh "$ANDROID_HOME/tools/bin/sdkmanager \
 	tools \
 	\"platform-tools\" \
-	\"build-tools;25.0.3\" \
+	\"build-tools;28.0.3\" \
 	\"platforms;android-23\" \
 	\"platforms;android-25\" \
 	\"platforms;android-26\" \
